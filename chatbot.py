@@ -1,6 +1,6 @@
-import openai
 import os     # Provides functions for interacting with the operating system.
 from dotenv import load_dotenv
+from openai import OpenAI
 
 # Load environment variables from the .env file
 load_dotenv()
