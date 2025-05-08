@@ -11,7 +11,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 # Adding the chatbot logic
 def chat_with_gpt(messages):
     response = openai.ChatCompletion.create(  # API call
-        model="gpt-4",  # Use the correct model name
+        model="gpt-4",  
         messages=messages,
         temperature=0.7
     )
