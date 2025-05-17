@@ -1,7 +1,7 @@
 import streamlit as st
 from chatbot import chat_with_gpt
 
-
+st.set_page_config(page_title="AI Assistant", page_icon="🤖")
 st.title("🤖 Your AI Assistant")
 
 # Initialize chat history in the session state
